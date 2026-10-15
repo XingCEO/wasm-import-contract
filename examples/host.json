@@ -1,0 +1,7 @@
+[
+  {
+    "module": "env",
+    "name": "clock",
+    "kind": "function"
+  }
+]

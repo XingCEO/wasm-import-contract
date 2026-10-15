@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "kind": "missing_import",
+      "module": "env",
+      "name": "log"
+    }
+  ],
+  "imports": [
+    {
+      "kind": "function",
+      "module": "env",
+      "name": "log",
+      "type_index": 0
+    }
+  ],
+  "name_and_kind_match": false,
+  "requires_type_validation": true
+}

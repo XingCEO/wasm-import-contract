@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wasm-import-contract"
+version = "0.1.0"
+description = "Inspect a Wasm module\u2019s host requirements without instantiating it."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "XingCEO"}]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[project.scripts]
+wasm-import-contract = "wasm_import_contract:main"
+
+[project.urls]
+Repository = "https://github.com/XingCEO/wasm-import-contract"
+Issues = "https://github.com/XingCEO/wasm-import-contract/issues"
+
+[tool.setuptools]
+py-modules = ["wasm_import_contract"]

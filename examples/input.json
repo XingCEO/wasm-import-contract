@@ -1,0 +1,10 @@
+{
+  "wasm_hex": "0061736d01000000010401600000020b0103656e76036c6f670000",
+  "host": [
+    {
+      "module": "env",
+      "name": "clock",
+      "kind": "function"
+    }
+  ]
+}
